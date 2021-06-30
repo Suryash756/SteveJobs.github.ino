@@ -1,0 +1,70 @@
+body{
+    text-align:center;
+    background: linear-gradient(orange,purple);
+    border:solid;
+    border-color:blue;;
+}
+#welcome{
+    border:solid;
+    border-color: black;
+    margin: 10px;
+    background: linear-gradient(red,blue,orange);
+}
+#jobs{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-color: purple;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.line{
+    height:8px;
+    width: 80px;
+    margin: 5px auto;
+    background-color: black;
+}
+#last{
+    border:solid;
+    border-color: black;
+    margin: 10px;
+    background: linear-gradient(red,blue,green);
+}
+#para1{
+    font-weight: bold;
+    font-size: 20px;
+}
+h1{
+    font-size:40px;
+}
+h2{
+    font-size:30px;
+}
+.menu{
+    background-color: aqua;
+    list-style: none;
+    position: fixed;
+    margin:5px auto;
+    top: 0;
+    padding-left: 500px;
+    cursor: pointer;
+    font-family: fantasy;
+    z-index: 99999;
+    opacity: 0.8;
+    width: 100%;
+}
+.menu:hover{
+    opacity: 1;
+}
+
+.links{
+    float: left;
+    padding: 7px;
+    font-size: 30px;
+    
+}
+ 
+.links:hover{
+    color: red;
+}
+    
