@@ -4,7 +4,7 @@ body{
     border:solid;
     border-color:blue;;
 }
-#welcome{
+#Home{
     border:solid;
     border-color: black;
     margin: 10px;
@@ -24,7 +24,7 @@ body{
     margin: 5px auto;
     background-color: black;
 }
-#last{
+#About{
     border:solid;
     border-color: black;
     margin: 10px;
@@ -67,4 +67,16 @@ h2{
 .links:hover{
     color: red;
 }
-    
+#company{
+    border: solid;
+    border-color:black;
+    background: linear-gradient(red,purple);
+    margin: 10px;
+}
+#Videos{
+    border: solid;
+    border-color:black;
+    background: linear-gradient(red,purple);
+    margin: 10px;
+       
+}
