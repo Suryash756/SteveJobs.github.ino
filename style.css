@@ -80,3 +80,16 @@ h2{
     margin: 10px;
        
 }
+img{
+    transition: transform .2s;
+    margin:10px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#blog{
+    border:solid;
+    border-color: black ;
+    background: linear-gradient(orange,purple);
+    margin:5px;
+}
