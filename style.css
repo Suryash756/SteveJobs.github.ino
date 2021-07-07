@@ -61,11 +61,13 @@ h2{
     float: left;
     padding: 7px;
     font-size: 30px;
-    
+    text-shadow: 2px 2px black;
 }
  
 .links:hover{
     color: red;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
 }
 #company{
     border: solid;
@@ -81,7 +83,7 @@ h2{
        
 }
 img{
-    transition: transform .2s;
+    transition: transform.2s;
     margin:10px;
 }
 img:hover{
@@ -92,4 +94,19 @@ img:hover{
     border-color: black ;
     background: linear-gradient(orange,purple);
     margin:5px;
+}
+#Contact{
+    border: solid;
+    border-color: black;
+}
+iframe{
+    width: 100%;
+    border:solid;
+    border-color:black;
+}
+#div1 a{
+    color: black;
+}
+#div1 h3{
+    display: inline;
 }
